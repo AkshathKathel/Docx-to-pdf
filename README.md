@@ -143,13 +143,13 @@ Uploads and converts a DOCX file to PDF format.
 
 ### Working Screenshots
 1. **Frontend Home Page**  
-   [Insert Screenshot of the Home Page here]  
+   ![Home Page](docs/images/home_screen.png)  
 
 2. **File Upload Screen**  
-   [Insert Screenshot of File Upload functionality here]  
+   ![File upload screen](docs/images/File_upload.png)  
 
 3. **Conversion Success**  
-   [Insert Screenshot showing successful file conversion result here]  
+   ![Final conversion](docs/images/final_conversion.png)   
 
 ### Docker Architecture Diagram
 [Insert a diagram that illustrates the Docker container architecture, including port mappings, services, and volume management.]
