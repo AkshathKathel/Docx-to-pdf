@@ -91,9 +91,6 @@ The provided `Dockerfile`:
 2. Builds the React frontend and serves it alongside the backend.
 3. Uses a custom entrypoint script to orchestrate MongoDB, the frontend, and the backend.
 
-**Diagram Placeholder: Docker Configuration**  
-[Insert a diagram illustrating the containerized architecture, including MongoDB, backend, and frontend services within one Docker container.]
-
 ### Key Docker Commands
 - **Build the image**:
   ```bash
@@ -151,33 +148,8 @@ Uploads and converts a DOCX file to PDF format.
 3. **Conversion Success**  
    ![Final conversion](docs/images/final_conversion.png)   
 
-### Docker Architecture Diagram
-[Insert a diagram that illustrates the Docker container architecture, including port mappings, services, and volume management.]
 
 ---
-
-## Development Guidelines
-
-### Project Structure
-```
-project-root/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── api/
-│   │   └── App.jsx
-│   ├── Dockerfile
-│   └── package.json
-├── backend/
-│   ├── src/
-│   │   ├── routes/
-│   │   ├── controllers/
-│   │   └── server.js
-│   ├── Dockerfile
-│   └── package.json
-├── docker-entrypoint.sh
-└── docker-compose.yml
-```
 
 ### Best Practices
 1. Use environment variables for configuration.
@@ -208,4 +180,3 @@ project-root/
 
 ---
 
-This structure accommodates screenshots for both **working functionalities** and **Docker architecture**. Replace placeholders with actual screenshots and diagrams.
